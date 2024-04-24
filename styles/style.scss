@@ -1,0 +1,184 @@
+//  General Styles Start
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.header_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 51px 108px;
+}
+
+// General Styles End
+
+// Header Styles Start
+
+.header {
+    background: #F6F6F6;
+}
+
+.header_container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_menu {
+    justify-content: center;
+    gap: 21px;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid #00000080
+}
+
+// Header Styles End
+
+
+// Main Styles Start
+
+
+// Hero Section Styles Start
+
+
+.main {
+    background: #F6F6F6;
+}
+
+
+.hero_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 354px 108px 10px 108px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.hero_title {
+    width: 450px;
+    height: 187px;
+    font-family: Forma DJR Deck;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 39.68px;
+}
+
+.hero_title2 {
+    width: 450px;
+    height: 207px;
+    font-family: Forma DJR Deck;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 39.68px;
+
+    span {
+        font-family: Forma DJR Deck;
+        font-size: 40px;
+        font-weight: 100;
+        line-height: 39.68px;
+        color: orange;
+    }
+}
+
+.hero_btn {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 208px;
+    height: 50px;
+    border-radius: 440px;
+    background-color: #000;
+    color: #fff;
+    font-family: Forma DJR Deck;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14.99px;
+    gap: 25px;
+
+    i {
+        vertical-align: middle;
+        font-size: 27px;
+        color: #fff;
+    }
+}
+
+.hero_img1 {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    z-index: 1;
+}
+
+.hero_img2 {
+    position: absolute;
+    top: 36.5%;
+    left: 53%;
+    filter: grayscale(100%);
+}
+
+.scroll {
+    margin-top: 122px;
+    text-align: center;
+
+    p {
+        font-family: AWConqueror Std Didot;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 18.74px;
+        color: #000000;
+
+        i {
+            font-size: 16px;
+        }
+    }
+}
+
+
+
+.image1 {
+    position: absolute;
+    top: 30%;
+    z-index: 2;
+    left: 60%;
+    width: 350px;
+}
+
+.image2 {
+    position: absolute;
+    top: 34.7%;
+    left: 64.8%;
+    filter: grayscale(100%);
+    width: 350px;
+    height: 370px;
+}
+
+
+// Hero Section Styles End
+
+// Main Styles End
